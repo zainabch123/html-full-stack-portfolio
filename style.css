@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 500px 1fr 1fr 1fr 40px;
+}
+header {
+  background-color: lightseagreen;
+  text-align: center;
+  border-top: 6px solid black;
+}
+header h2 {
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  opacity: 80%;
+}
+.navigation-bar {
+  display: inline-block;
+  margin-left: 30%;
+}
+.navigation-bar a {
+  margin-right: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: lightseagreen;
+  border: 1px solid white;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  opacity: 80%;
+}
+.introduction {
+  margin-top: 60px;
+  text-align: start;
+  margin-left: 38%;
+  color: white;
+  opacity: 70%;
+}
+.introduction h1 {
+  font-size: 60px;
+}
+.introduction p {
+  margin-top: 20px;
+}
+.introduction span {
+  color: black;
+  font-weight: bold;
+}
+.introduction span1 {
+  font-style: italic;
+  text-decoration: solid black underline;
+}
+#about-me {
+  display: grid;
+  background-color: white;
+  text-align: center;
+  border-top: 6px solid black;
+}
+#about-me h2 {
+  margin-top: 30px;
+}
+.about-me-intro {
+  margin-top: 20px;
+  text-align: start;
+  margin-left: 38%;
+  margin-right: 37%;
+}
+.about-me-intro p {
+  margin-top: 10px;
+}
+.technical-skills {
+  margin-top: 20px;
+  text-align: start;
+  margin-left: 38%;
+  margin-right: 37%;
+}
+.technical-skills ul {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.technical-skills li {
+  padding: 2px;
+}
+.second-skills-list li {
+  margin-left: 60px;
+}
+#portfolio {
+  display: grid;
+  background-color: rgb(246, 209, 217);
+  text-align: center;
+  border-top: 6px solid black;
+}
+#portfolio h2 {
+  margin-top: 30px;
+}
+.portfolio-examples {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.example1 {
+  display: inline-block;
+  border: 5px solid rgb(207, 97, 116);
+  padding: 30px;
+  width: 250px;
+  height: 360px;
+  margin-right: 20px;
+  background-color: whitesmoke;
+  text-align: start;
+}
+.example2 {
+  display: inline-block;
+  border: 5px solid rgb(207, 97, 116);
+  padding: 30px;
+  width: 250px;
+  height: 360px;
+  margin-right: 20px;
+  background-color: whitesmoke;
+  text-align: start;
+}
+.example3 {
+  display: inline-block;
+  border: 5px solid rgb(207, 97, 116);
+  padding: 30px;
+  width: 250px;
+  height: 360px;
+  background-color: whitesmoke;
+  text-align: start;
+}
+.example1 h3 {
+  font-size: 25px;
+}
+.example1 p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.example2 h3 {
+  font-size: 25px;
+}
+.example2 p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.example3 h3 {
+  font-size: 25px;
+}
+.example3 p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#read-more {
+  display: block;
+  text-decoration: none;
+  background-color: rgb(207, 97, 116);
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 5px;
+}
+#git-repo {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+}
+#experience {
+  display: grid;
+  background-color: white;
+  text-align: center;
+  border-top: 6px solid black;
+}
+#experience h2 {
+  margin-top: 30px;
+}
+.experience-text1 {
+  margin-top: 20px;
+  text-align: start;
+  margin-left: 38%;
+  margin-right: 37%;
+}
+.experience-text1 p {
+  margin-top: 10px;
+}
+.experience-text2 {
+  margin-top: 30px;
+  text-align: start;
+  margin-left: 38%;
+  margin-right: 37%;
+  margin-bottom: 40px;
+}
+.experience-text2 p {
+  margin-top: 10px;
+}
+.footer {
+  display: grid;
+  background-color: black;
+  text-align: start;
+  color: white;
+  opacity: 80%;
+  align-items: center;
+}
+.footer p {
+  margin-left: 20px;
+}
